@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/barisPertama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/daftartb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/daftar"
+            android:text="@string/menu_daftartb" />
+
+        <Button
+            android:id="@+id/petaLokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DashboardButton"
+            android:drawableTop="@drawable/map"
+            android:text="@string/menu_petalokasi" />
+      
+    </LinearLayout>
+	    
+	    <LinearLayout 
+	        android:id="@+id/barisKedua"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+	        <Button
+	            android:id="@+id/panduan"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            style="@style/DashboardButton"
+	            android:drawableTop="@drawable/help"
+	            android:text="@string/menu_panduan" />
+
+	        <Button
+	            android:id="@+id/tentangApp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            style="@style/DashboardButton"
+	            android:drawableTop="@drawable/info"
+	            android:text="@string/menu_tentangApp" />
+	        
+	    </LinearLayout>
+	    
+	    
+	 
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   
+    <LinearLayout 
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView 
+            android:id="@+id/imgAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/splash"
+            style="@style/img"
+            />
+        <TextView 
+          android:id="@+id/txtJudul"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/judul_about"
+          style="@style/Judul"
+          android:layout_gravity="center"
+          
+          />
+        
+        <TextView 
+          android:id="@+id/txtKet"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="fill_horizontal"
+          android:text="@string/about"
+          style="@style/txt"
+            />
+        
+        <TextView 
+          android:id="@+id/ttgPengembang"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/ttgPengembang"  
+          style="@style/Judul"
+          android:layout_gravity="center"
+          
+            />
+        <TextView 
+          android:id="@+id/namaAbout"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/namaAbout"  
+          style="@style/txt"
+            />
+        <TextView 
+            android:id="@+id/nimAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nimAbout"
+            />
+      </LinearLayout>
+      
+    
+</ScrollView>
+    

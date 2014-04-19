@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+        <TextView 
+            android:id="@+id/nama_tb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+	        android:paddingBottom="25dip"
+	        android:paddingTop="6dip"
+	        android:textColor="#43bd00"
+	        android:textSize="16sp"
+	        android:textStyle="bold"
+            android:gravity="center"
+            />
+        <TextView 
+            android:id="@+id/alamat_tb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:paddingBottom="2dip"
+            />
+        <TextView 
+            android:id="@+id/telp_tb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:paddingBottom="2dip"
+            />
+        <TextView 
+            android:id = "@+id/lat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:paddingBottom="2dip"
+            />
+        
+        <TextView 
+            android:id = "@+id/lng"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:paddingBottom="2dip"
+            />
+        <TextView 
+            android:id = "@+id/jarak"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:paddingBottom="20dip"
+            />
+
+        <Button
+            android:id="@+id/btnDirection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/getDirection" 
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            style="@style/ButtonText"
+            />
+
+        <Button
+            android:id="@+id/btnTelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telepon" 
+            android:layout_gravity="center"            
+            android:background="@drawable/button"
+            style="@style/ButtonText"
+            />
+
+</LinearLayout>

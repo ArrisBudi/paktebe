@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PakTebe</string>
+    <string name="action_settings">Settings</string>
+    <string name="author">Bambang Sumarsono</string>
+    <string name="menu_daftartb">Daftar TB</string>
+    <string name="menu_petalokasi">Peta Lokasi</string>
+    <string name="menu_panduan">Panduan</string>
+    <string name="menu_tentangApp">Tentang App</string>
+    <string name="judul_about">Pak TeBe ( Tambal Ban )</string>
+    <string name="about">Pak TeBe berasal dari kata Tambal Ban, Nama ini digunakan karena sebagian besar tukang tambal ban selalu menyebut merk nya di awali dengan TB. (misalnya TB. Makmur).
+        Pak Tebe merupakan aplikasi mobile berbasis Android yang digunakan untuk melakukan pencarian lokasi tambal ban. Aplikasi ini memiliki fitur pencarian tambal ban di wilayah kabupaten sleman, melakukan navigasi, mengetahui jarak menuju tambal ban dan menelepon tambal ban untuk memastikan bahwa tambal ban masih buka.
+        Aplikasi ini digunakan sebagai skripsi sebagai syarat menyelesaikan studi S1 di STMIK Amikom Yogyakarta.</string>
+    <string name="ttgPengembang">Tentang Pengembang</string>
+    <string name="namaAbout">Nama : Bambang Sumarsono</string>
+    <string name="nimAbout">NIM : 10.11.3841</string>   
+    <string name="motor">motor</string>
+    <string name="mobil">mobil</string>
+    <string name="getDirection">Get Direction</string>
+    <string name="telepon">Telepon</string>
+
+</resources>
